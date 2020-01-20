@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Memorygame</title>
+        <script src="script.js" defer></script>
+        <meta http-equiv="Content-Type" content="text/html"; charset=utf-8>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>    
+        <div class="main_section">
+            <div class="header">
+                <h1>Memory game</h1>
+                <p>Нажимая на карточки, найди одинковые пары картинок.</p>
+            </div>
+            <div id="cardsList">
+                <div class="gameButton">
+                    <img id="cell_0" onclick="button(0)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_1" onclick="button(1)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_2" onclick="button(2)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_3" onclick="button(3)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_4" onclick="button(4)" src="images/default.jpg">
+                </div>      
+                <div class="gameButton">
+                    <img id="cell_5" onclick="button(5)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_6" onclick="button(6)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_7" onclick="button(7)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_8" onclick="button(8)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_9" onclick="button(9)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_10" onclick="button(10)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_11" onclick="button(11)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_12" onclick="button(12)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_13" onclick="button(13)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_14" onclick="button(14)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_15" onclick="button(15)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_16" onclick="button(16)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_17" onclick="button(17)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_18" onclick="button(18)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_19" onclick="button(19)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_20" onclick="button(20)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_21" onclick="button(21)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_22" onclick="button(22)" src="images/default.jpg">
+                </div>
+                <div class="gameButton">
+                    <img id="cell_23" onclick="button(23)" src="images/default.jpg">
+                </div>
+            </div>
+            <div class="text_section">
+                <div id="stopwatch"><time>00:00</time></div>
+                <div id="helpbutton"></div>
+                <br>
+                <div>
+                    <input type="button" value="RESTART" onclick="restart()">
+                </div>
+                <div>
+                    <p>Сложность:</p>
+                    <input class="difficultyButton" type="button" value="Easy" onclick="changeCells(5)">
+                    <input class="difficultyButton" type="button" value="Normal" onclick="changeCells(6)">
+                    <input class="difficultyButton" type="button" value="Hard" onclick="changeCells(7)">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
